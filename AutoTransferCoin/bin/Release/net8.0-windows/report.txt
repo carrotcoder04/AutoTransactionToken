@@ -1,0 +1,70 @@
+05/01/2025 5:03:25 CH - {"Address":"sfDRxejdNAh2pvi5LSkyNAEvPXfBpemVj3","SecretKey":"model kick found alarm loop soccer raccoon sauce question coast spawn artist","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00066,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+05/01/2025 5:03:49 CH - {"Address":"sfV326XsqDNMgzk9dPwAKPjPdSQcA9Z32T","SecretKey":"double source tent iron that key empower grocery swim matrix evolve brave","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+05/01/2025 5:28:57 CH - {"Address":"sQJk9YHFcBUCPKGHnopuawtV7kyes9CHAS","SecretKey":"tag today thrive alter minor icon pistol amateur reject plug merit will","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+05/01/2025 5:29:23 CH - {"Address":"saW8vf1NncywhTF61pzisqTb9x68yDVE3j","SecretKey":"repair gate wine abandon slow strong hero process bless van pudding human","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+05/01/2025 5:29:47 CH - {"Address":"shQWkvNbrf3qCSEi8kR5yXQLDsKs7jEhm4","SecretKey":"cargo craft mix west flip muffin afford slice lottery rubber common fiscal","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+05/01/2025 5:30:12 CH - {"Address":"sfu42fXcHEYMKbbSMe8pufdQZu1hPQTE1p","SecretKey":"car supreme fun tornado upper grit ice once one alert neck timber","IsComplete":false,"Smart":50.014,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+05/01/2025 5:30:37 CH - {"Address":"sXmBXhwMhHd6b15QLFdTCE32J6B8ZwnMtQ","SecretKey":"atom town pill wonder auto gospel pride owner stand notable fame curious","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+05/01/2025 5:31:04 CH - {"Address":"sKg9QvS3uqMdgEBAjYUgucjHu639fdU13c","SecretKey":"birth settle icon page night shadow noise stumble earth copy hand length","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+05/01/2025 5:31:30 CH - {"Address":"sLrhaakoL41xBJLGXxQMgvRXXqLSmXKi3w","SecretKey":"search local jealous october bench blanket office hurt venture whale kick there","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+05/01/2025 5:32:05 CH - {"Address":"sWTVA1A6V7B15UMDV2NFL4wVUL1EZPCfmF","SecretKey":"process sure rough inquiry wheat dizzy stadium party unlock midnight slab couch","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+05/01/2025 5:32:29 CH - {"Address":"sdnZeauxhQaWuS1UsdUxGA1S7FmUGP7XQN","SecretKey":"scheme virus mesh wonder real skin syrup weather toward indoor frozen palace","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+05/01/2025 5:36:08 CH - {"Address":"sfDRxejdNAh2pvi5LSkyNAEvPXfBpemVj3","SecretKey":"model kick found alarm loop soccer raccoon sauce question coast spawn artist","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00066,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 5:52:20 CH - {"Address":"sfV326XsqDNMgzk9dPwAKPjPdSQcA9Z32T","SecretKey":"double source tent iron that key empower grocery swim matrix evolve brave","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 5:53:29 CH - {"Address":"sQJk9YHFcBUCPKGHnopuawtV7kyes9CHAS","SecretKey":"tag today thrive alter minor icon pistol amateur reject plug merit will","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 5:54:38 CH - {"Address":"saW8vf1NncywhTF61pzisqTb9x68yDVE3j","SecretKey":"repair gate wine abandon slow strong hero process bless van pudding human","IsComplete":true,"Smart":50.007,"Energy":30000.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 5:55:47 CH - {"Address":"shQWkvNbrf3qCSEi8kR5yXQLDsKs7jEhm4","SecretKey":"cargo craft mix west flip muffin afford slice lottery rubber common fiscal","IsComplete":true,"Smart":50.007,"Energy":30000.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 5:56:55 CH - {"Address":"sfu42fXcHEYMKbbSMe8pufdQZu1hPQTE1p","SecretKey":"car supreme fun tornado upper grit ice once one alert neck timber","IsComplete":true,"Smart":50.014,"Energy":30000.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 5:58:05 CH - {"Address":"sXmBXhwMhHd6b15QLFdTCE32J6B8ZwnMtQ","SecretKey":"atom town pill wonder auto gospel pride owner stand notable fame curious","IsComplete":true,"Smart":50.007,"Energy":30000.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 5:59:14 CH - {"Address":"sKg9QvS3uqMdgEBAjYUgucjHu639fdU13c","SecretKey":"birth settle icon page night shadow noise stumble earth copy hand length","IsComplete":true,"Smart":50.007,"Energy":30000.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+06/01/2025 8:54:18 CH - {"Address":"sfu42fXcHEYMKbbSMe8pufdQZu1hPQTE1p","SecretKey":"car supreme fun tornado upper grit ice once one alert neck timber","IsComplete":true,"Smart":39.776849,"Energy":0.0,"Ultima":1E-06,"SmartState":0,"EnergyState":2,"UltimaState":2}
+
+06/01/2025 8:54:39 CH - {"Address":"sLrhaakoL41xBJLGXxQMgvRXXqLSmXKi3w","SecretKey":"search local jealous october bench blanket office hurt venture whale kick there","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+06/01/2025 8:55:09 CH - {"Address":"sWTVA1A6V7B15UMDV2NFL4wVUL1EZPCfmF","SecretKey":"process sure rough inquiry wheat dizzy stadium party unlock midnight slab couch","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+06/01/2025 8:55:28 CH - {"Address":"sdnZeauxhQaWuS1UsdUxGA1S7FmUGP7XQN","SecretKey":"scheme virus mesh wonder real skin syrup weather toward indoor frozen palace","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+06/01/2025 8:55:45 CH - {"Address":"sViwV6Rf6cp7jStpfyiy6pYoMziFtz54YY","SecretKey":"owner ceiling tissue remember coach drastic gossip flash sense siren pear twin","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+06/01/2025 11:24:58 CH - {"Address":"sLrhaakoL41xBJLGXxQMgvRXXqLSmXKi3w","SecretKey":"search local jealous october bench blanket office hurt venture whale kick there","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+06/01/2025 11:30:57 CH - {"Address":"sUpGaApAn82e94Qbr6emf1ucFkKRVPbmTu","SecretKey":"zebra rare know ginger eye dish hour parrot wall arch canal mosquito","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+06/01/2025 11:31:17 CH - {"Address":"sKtq8zj5tcAx1ZkD7zfA4vtzGF9WmvA5Vu","SecretKey":"matrix unaware kind island quality service hundred bamboo client traffic connect cash","IsComplete":false,"Smart":351.0,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+08/01/2025 12:14:19 SA - {"Address":"sKtq8zj5tcAx1ZkD7zfA4vtzGF9WmvA5Vu","SecretKey":"matrix unaware kind island quality service hundred bamboo client traffic connect cash","IsComplete":false,"Smart":351.0,"Energy":29996.0,"Bull":0.0108441,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0,"BullState":2}
+
+08/01/2025 12:21:10 SA - {"Address":"sUpGaApAn82e94Qbr6emf1ucFkKRVPbmTu","SecretKey":"zebra rare know ginger eye dish hour parrot wall arch canal mosquito","IsComplete":false,"Smart":0.006,"Energy":177.0,"Bull":0.0,"Ultima":0.00033,"SmartState":0,"EnergyState":2,"UltimaState":0,"BullState":2}
+
+08/01/2025 12:21:40 SA - {"Address":"sKtq8zj5tcAx1ZkD7zfA4vtzGF9WmvA5Vu","SecretKey":"matrix unaware kind island quality service hundred bamboo client traffic connect cash","IsComplete":false,"Smart":351.0,"Energy":2000.0,"Bull":0.0,"Ultima":0.000293,"SmartState":2,"EnergyState":2,"UltimaState":0,"BullState":2}
+
+08/01/2025 12:22:01 SA - {"Address":"sQKmT8dgYGF9XZ2JxZm48TMJBpwiFfWU5u","SecretKey":"cruel nest hundred tip bench near symptom dinner exercise army pony note","IsComplete":false,"Smart":50.007,"Energy":0.0,"Bull":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0,"BullState":2}
+
+08/01/2025 12:25:10 SA - {"Address":"sW1JNUZPgPgy8dDbVybgMcggGpk82Q3r2x","SecretKey":"stairs armed model high upon traffic zebra doctor angle squirrel evil dance","IsComplete":false,"Smart":39.968231,"Energy":0.0,"Bull":0.0108607,"Ultima":1E-06,"SmartState":0,"EnergyState":2,"UltimaState":2,"BullState":0}
+
+08/01/2025 12:25:43 SA - {"Address":"sPPj19X86gi1sVUKxpxtLVUGfM6G1gKWBk","SecretKey":"arch ask gallery cancel loan embark track inflict loop sting ship huge","IsComplete":false,"Smart":50.007,"Energy":0.0,"Bull":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0,"BullState":2}
+
+08/01/2025 12:26:08 SA - {"Address":"sTByJYJSRRSfyTLAu4LZuyrd7LESJJa6qP","SecretKey":"grief brick hello raven special blur sunny bar page surge become army","IsComplete":false,"Smart":50.007,"Energy":0.0,"Bull":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0,"BullState":2}
+
+08/01/2025 12:33:27 SA - {"Address":"sW1JNUZPgPgy8dDbVybgMcggGpk82Q3r2x","SecretKey":"stairs armed model high upon traffic zebra doctor angle squirrel evil dance","IsComplete":false,"Smart":39.968231,"Energy":30000.0,"Bull":0.0108607,"Ultima":1E-06,"SmartState":2,"EnergyState":2,"UltimaState":2,"BullState":0}
+

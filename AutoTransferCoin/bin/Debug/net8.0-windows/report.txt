@@ -1,0 +1,58 @@
+04/01/2025 9:54:29 CH - {"Address":"sX2qXWDT9WVhEHoUiqMDhdqeuPQgWxZiym","SecretKey":"suspect universe girl liar cry jealous bread bunker bunker chief exercise rude","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+04/01/2025 9:54:33 CH - {"Address":"sUm596jEBCbcv77ZzXrUk33cP6827Z8Jsp","SecretKey":"decorate portion tray special ketchup horse orbit between swift sure approve sustain","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+04/01/2025 9:54:50 CH - {"Address":"sQ2AGDz6aZtHnjJjsPdzJd3fHCEJzKLWVu","SecretKey":"review suspect blade denial head brother know away east tennis retire double","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+04/01/2025 9:55:10 CH - {"Address":"sNEEaTZF4BFioGJ4GQ1v3mreAySbzKnJLt","SecretKey":"head rule tide horn canvas bind tone survey front dynamic recipe business","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+04/01/2025 9:55:39 CH - {"Address":"sbrEwrwPWV4QEcNSV9rdsvPXoYiNDFruNk","SecretKey":"slim snack bag mammal orchard mixed smoke sting deny reject firm loyal","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+04/01/2025 9:57:33 CH - {"Address":"sYVC1FNJG4Rtis78KeYuLLnMuJg4qmjG9c","SecretKey":"corn safe keep teach thought artefact quality rule amused improve oval sphere","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+04/01/2025 9:57:38 CH - {"Address":"seiN8mRvF78LMDKyCqywFUPM9RCYR8tr2r","SecretKey":"enroll jacket submit until dirt drip prepare holiday crime ocean position quiz","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+04/01/2025 10:03:12 CH - {"Address":"sMosf6RUgaN8VTLivEQbQZ1NkVRZHs8x1o","SecretKey":"woman virus era volume galaxy disagree aisle test sunny aspect thumb property","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+04/01/2025 10:03:12 CH - {"Address":"sW1JNUZPgPgy8dDbVybgMcggGpk82Q3r2x","SecretKey":"stairs armed model high upon traffic zebra doctor angle squirrel evil dance","IsComplete":false,"Smart":50.014,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+04/01/2025 10:03:15 CH - {"Address":"scX4x6GoN4e4UB4ToKjcq4MBbzvuMZz1wy","SecretKey":"change crazy sight scare diet supreme artwork clarify stick ketchup actress this","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+04/01/2025 10:03:35 CH - {"Address":"sTaNiGvdsTFnF8ucpuUBNN3eBNRSDZ7tu4","SecretKey":"few canvas frozen devote nation curious rabbit shiver blouse omit diesel oppose","IsComplete":false,"Smart":50.007,"Energy":0.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":0}
+
+05/01/2025 1:17:55 SA - {"Address":"sSJaBGs5QmazVPBwNcCjhv99VJqfqQ731d","SecretKey":"occur argue load dance hammer conduct over shop addict assault pole sad","IsComplete":true,"Smart":100.02,"Energy":59998.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:28:02 SA - {"Address":"saYHSsrHfQABHE1NbBaP1FDtnePMFiiLTU","SecretKey":"float phone shell regret saddle mind fork bulk wagon evolve sniff spoil","IsComplete":true,"Smart":100.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:28:06 SA - {"Address":"sdAtfgf7882m2jUyquujknuxAw6k8aJh76","SecretKey":"drive assist tragic possible tape omit finger visual click attract ready marine","IsComplete":true,"Smart":100.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:28:14 SA - {"Address":"sYVC1FNJG4Rtis78KeYuLLnMuJg4qmjG9c","SecretKey":"corn safe keep teach thought artefact quality rule amused improve oval sphere","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:29:15 SA - {"Address":"saoaCJ71vw2HQfLu8BYJHDr7fXEkNr9sGu","SecretKey":"need record sorry concert blossom amazing accuse someone asset flower sun spider","IsComplete":true,"Smart":100.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:29:20 SA - {"Address":"sW1JNUZPgPgy8dDbVybgMcggGpk82Q3r2x","SecretKey":"stairs armed model high upon traffic zebra doctor angle squirrel evil dance","IsComplete":true,"Smart":50.014,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:29:21 SA - {"Address":"sK5QYTiK53DYyW3VziU1aD6MkN7EWo2oVD","SecretKey":"world royal beef muffin bronze endorse enhance client kingdom task spot merge","IsComplete":true,"Smart":100.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:30:30 SA - {"Address":"sX2qXWDT9WVhEHoUiqMDhdqeuPQgWxZiym","SecretKey":"suspect universe girl liar cry jealous bread bunker bunker chief exercise rude","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:30:31 SA - {"Address":"sUm596jEBCbcv77ZzXrUk33cP6827Z8Jsp","SecretKey":"decorate portion tray special ketchup horse orbit between swift sure approve sustain","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:30:38 SA - {"Address":"sTaNiGvdsTFnF8ucpuUBNN3eBNRSDZ7tu4","SecretKey":"few canvas frozen devote nation curious rabbit shiver blouse omit diesel oppose","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:31:40 SA - {"Address":"sQ2AGDz6aZtHnjJjsPdzJd3fHCEJzKLWVu","SecretKey":"review suspect blade denial head brother know away east tennis retire double","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:31:41 SA - {"Address":"sMosf6RUgaN8VTLivEQbQZ1NkVRZHs8x1o","SecretKey":"woman virus era volume galaxy disagree aisle test sunny aspect thumb property","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:32:50 SA - {"Address":"sNEEaTZF4BFioGJ4GQ1v3mreAySbzKnJLt","SecretKey":"head rule tide horn canvas bind tone survey front dynamic recipe business","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:33:59 SA - {"Address":"sbrEwrwPWV4QEcNSV9rdsvPXoYiNDFruNk","SecretKey":"slim snack bag mammal orchard mixed smoke sting deny reject firm loyal","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:35:11 SA - {"Address":"seiN8mRvF78LMDKyCqywFUPM9RCYR8tr2r","SecretKey":"enroll jacket submit until dirt drip prepare holiday crime ocean position quiz","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 1:36:22 SA - {"Address":"scX4x6GoN4e4UB4ToKjcq4MBbzvuMZz1wy","SecretKey":"change crazy sight scare diet supreme artwork clarify stick ketchup actress this","IsComplete":true,"Smart":50.007,"Energy":29999.0,"Ultima":0.00033,"SmartState":2,"EnergyState":2,"UltimaState":2}
+
+05/01/2025 12:51:43 CH - {"Address":"sSJaBGs5QmazVPBwNcCjhv99VJqfqQ731d","SecretKey":"occur argue load dance hammer conduct over shop addict assault pole sad","IsComplete":true,"Smart":89.968428,"Energy":0.0,"Ultima":1E-06,"SmartState":2,"EnergyState":0,"UltimaState":2}
+
+05/01/2025 12:52:13 CH - {"Address":"sYVC1FNJG4Rtis78KeYuLLnMuJg4qmjG9c","SecretKey":"corn safe keep teach thought artefact quality rule amused improve oval sphere","IsComplete":true,"Smart":39.962448,"Energy":0.0,"Ultima":1E-06,"SmartState":0,"EnergyState":0,"UltimaState":2}
+
