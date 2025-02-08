@@ -2,6 +2,7 @@
 using Auto_LDPlayer;
 using Auto_LDPlayer.Enums;
 using AutoTransactionToken.Config;
+using System;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -11,11 +12,18 @@ namespace AutoTransactionToken.Simulator
     {
         public bool IsStart { get; private set; }
         public LDevice Device { get; private set; }
+        public int ID => Device.index;
         public LDClient(int id)
         {
             Device = new LDevice();
             Device.index = id;
             SetDeviceAsync();
+        }
+        public void DisableAnimation()
+        {
+            LDPlayer.Adb(LDType.Id, Device.index.ToString(), $"shell settings put global window_animation_scale 0");
+            LDPlayer.Adb(LDType.Id, Device.index.ToString(), $"shell settings put global transition_animation_scale 0");
+            LDPlayer.Adb(LDType.Id, Device.index.ToString(), $"shell settings put global animator_duration_scale 0");
         }
         public LDClient(LDevice device)
         {

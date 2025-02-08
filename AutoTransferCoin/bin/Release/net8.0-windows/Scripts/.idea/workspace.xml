@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7a7497c-1417-4d29-b7ba-bca4f4799cfd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../../.vs/AutoTransferCoin/FileContentIndex/1142fb5d-a5df-41a8-bebd-56e362cf82eb.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.vs/AutoTransferCoin/FileContentIndex/811fe326-afad-440b-a208-f4d108f492e9.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.vs/AutoTransferCoin/FileContentIndex/9f9ec8a3-98ad-4474-a685-9cffd6b4cfe7.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.vs/AutoTransferCoin/FileContentIndex/eab2d351-6055-476e-af3f-d040c2315de1.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.vs/AutoTransferCoin/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.vs/AutoTransferCoin/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.vs/AutoTransferCoin/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.vs/AutoTransferCoin/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.vs/AutoTransferCoin/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.vs/AutoTransferCoin/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.vs/ProjectEvaluation/autotransfercoin.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.vs/ProjectEvaluation/autotransfercoin.metadata.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.vs/ProjectEvaluation/autotransfercoin.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.vs/ProjectEvaluation/autotransfercoin.projects.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../AppController/CTL1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../AppController/CTL1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../AppController/Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../AppController/Controller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Service.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Service.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Simulator/LDClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Simulator/LDClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoTransactionToken.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoTransactionToken.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoTransactionToken.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoTransactionToken.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoTransactionToken.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoTransactionToken.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/AutoTransactionToken.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/ref/AutoTransactionToken.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/ref/AutoTransactionToken.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/refint/AutoTransactionToken.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../obj/Release/net8.0-windows/refint/AutoTransactionToken.dll" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2rONtqhESVyPmQIbPU2z38XnMtR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Scripts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Scripts" type="PythonConfigurationType" factoryName="Python">
+      <module name="Scripts" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7a7497c-1417-4d29-b7ba-bca4f4799cfd" name="Changes" comment="" />
+      <created>1736426380223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736426380223</updated>
+      <workItem from="1736426382275" duration="23074000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Scripts$Scripts.coverage" NAME="Scripts Coverage Results" MODIFIED="1736450933787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

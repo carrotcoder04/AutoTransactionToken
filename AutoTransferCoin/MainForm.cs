@@ -21,6 +21,9 @@ namespace AutoTransactionToken
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
+            this.StartPosition = FormStartPosition.Manual;
+            int screenHeight = Screen.PrimaryScreen.WorkingArea.Height;
+            this.Location = new Point(0, screenHeight - this.Height);
             Controller.Init();
         }
 
@@ -142,6 +145,11 @@ namespace AutoTransactionToken
         private void TransactionBullButton_Click(object sender, EventArgs e)
         {
             Controller.OnTransactionBullClick();
+        }
+
+        private void LoginTest_Click(object sender, EventArgs e)
+        {
+            Task.Run(() => Controller.Login(Controller.clients[0], Controller.Wallets[0]));
         }
     }
 }

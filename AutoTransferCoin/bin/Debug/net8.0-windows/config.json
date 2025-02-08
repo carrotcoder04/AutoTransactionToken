@@ -1,11 +1,13 @@
 {
-  "ADBFolder": "C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools",
+  "ADBFolder": "C:\\LDPlayer\\LDPlayer9",
   "LDPlayerConsolePath": "C:\\LDPlayer\\LDPlayer9\\ldconsole.exe",
   "PackageName": "com.smartblockchain.wallet",
   "TargetAddress": "sXUMBWfAtVkQT2karMPJcqcVR4jNVqosep",
   "LDTab": 1,
   "SmartToken": 50,
   "Energy": 30000,
-  "UltimaToken": 0.00001,
-  "IsStrictCondition": true
+  "UltimaToken": -0.00001,
+  "BullToken": -0.00001,
+  "IsStrictCondition": true,
+  "SecretKey": "hurdle egg fringe media know clip utility twelve want remind run illegal"
 }

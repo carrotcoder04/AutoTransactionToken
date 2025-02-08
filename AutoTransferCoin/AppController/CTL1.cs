@@ -1,12 +1,6 @@
-﻿using AutoTransactionToken.Log;
+﻿
 using AutoTransactionToken.Simulator;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Diagnostics;
 
 namespace AutoTransactionToken.AppController
 {
@@ -14,97 +8,134 @@ namespace AutoTransactionToken.AppController
     {
         private async Task UpdateWallet()
         {
-            foreach(var wallet in Wallets)
-            {
-                wallet.Update();
-            }
             while (true)
             {
                 foreach (var wallet in Wallets)
                 {
-                    await wallet.Update();
+                    wallet.Update();
                 }
-                await Task.Delay(3000);
+                await Task.Delay(5000);
             }
         }
-        private async Task Login(LDClient client, SmartWallet wallet)
+
+        public async Task Login(LDClient client, SmartWallet wallet,bool isNew = false)
         {
-            await Task.Delay(200);
-            client.ClickPercent(83f,95f);
-            await Task.Delay(400);
-            client.ClickPercent(70f, 20f);
-            await Task.Delay(600);
-            client.ClickPercent(75.5f, 24.7f);
-            await Task.Delay(300);
-            client.ClickPercent(75.5f, 24.7f);
-            await Task.Delay(500);
-            client.ClickPercent(50f, 40f);
-            await Task.Delay(200);
-            string text = wallet.SecretKey;
-            text += " ";
-            for (int i = 0; i < text.Length; i++)
+            if (!isNew)
             {
-                client.InputText(text[i].ToString());
+                await Service.ClickElement(client.ID, BTN_SETTINGS);
+                await Task.Delay(400);
+                await Service.ClickElement(client.ID, MY_WALLET);
+                await Task.Delay(1000);
+                while(await Service.ContainElement(client.ID, ADD_WALLET))
+                {
+                    await Service.ClickElement(client.ID, ADD_WALLET);
+                    await Task.Delay(400);
+                }
+                await Service.ClickElement(client.ID, RESTORE_WALLET);
+                await Task.Delay(400);
             }
-            await Task.Delay(500);
-            client.ClickPercent(50.4f, 91.7f);
-            await Task.Delay(700);
-            await EnterPassWord(client);
-            await Task.Delay(500);
+            string text = wallet.SecretKey;
+            string[] parts = text.Split(' ');
+            foreach (var part in parts)
+            {
+                await Service.SetTextElement(client.ID, part);
+                await Task.Delay(150);
+                client.InputText(" ");
+                await Task.Delay(150);
+            }
+            client.Swipe(200, 300, 200, 50, 300);
+            await Service.ClickElement(client.ID, BTN_RESTORE);
+            await Task.Delay(400);
+            while (await Service.ContainElement(client.ID, BTN_NEXT))
+            {
+                await Service.ClickElement2(client.ID, BTN_NEXT);
+                await Task.Delay(100);
+            }
             bool flag = false;
             do
             {
-                client.ClickPercent(48.7f, 86.4f);
-                flag = !client.DumpAndCheckKey("Next");
-                await Task.Delay(200);
-            }
-            while (!flag);
-            flag = false;
-            do
-            {
-                string xml = client.DumpXML();
-                if(xml.Contains(SUCCESS))
+                if (await Service.ContainElement(client.ID, SUCCESS))
                 {
-                    flag = true;
-                    client.ClickPercent(15f, 95f);
+                    flag = await Service.ClickElement(client.ID, BTN_OK);
                 }
-                else if(xml.Contains("Oops"))
+                else if (await Service.ContainElement(client.ID, OOPS))
                 {
-                    flag = true;
-                    client.ClickPercent(15f, 95f);
+                    flag = await Service.ClickElement(client.ID, BTN_CANCEL);
                 }
 
-            }
-            while (!flag);
+                await Task.Delay(300);
+            } while (!flag);
             await Task.Delay(500);
             await GoSmartHome(client);
+            await Task.Delay(400);
         }
+
         private async Task EnterPassWord(LDClient client)
         {
-            bool flag = false;
-            do
-            {
-                await Task.Delay(400);
-                client.ClickPercent(24.3f, 58.7f);
-                client.ClickPercent(24.3f, 58.7f);
-                client.ClickPercent(24.3f, 58.7f);
-                client.ClickPercent(24.3f, 58.7f);
-                client.ClickPercent(24.3f, 58.7f);
-                client.ClickPercent(24.3f, 58.7f);
-                await Task.Delay(400);
-                if (!client.DumpAndCheckKey("Enter your PIN"))
-                {
-                    flag = true;
-                }
-            }
-            while (!flag);
-
+            await Service.ClickElement2(client.ID, "1");
+            await Task.Delay(200);
+            await Service.ClickElement2(client.ID, "1");
+            await Task.Delay(200);
+            await Service.ClickElement2(client.ID, "1");
+            await Task.Delay(200);
+            await Service.ClickElement2(client.ID, "1");
+            await Task.Delay(200);
+            await Service.ClickElement2(client.ID, "1");
+            await Task.Delay(200);
+            await Service.ClickElement2(client.ID, "1");
+            await Task.Delay(200);
+            await Service.ClickElement2(client.ID, "1");
+            await Task.Delay(200);
+            await Service.ClickElement2(client.ID, "1");
+            await Task.Delay(200);
+            await Service.ClickElement2(client.ID, "1");
+            await Task.Delay(200);
+            await Service.ClickElement2(client.ID, "1");
         }
         private async Task GoSmartHome(LDClient client)
         {
             await Task.Delay(300);
-            client.ClickPercent(14.2f, 95.8f);
+            await Service.ClickElement(client.ID, BTN_WALLET);
             await Task.Delay(300);
+            await Service.ClickElement(client.ID, BTN_ALL);
+            await Task.Delay(300);
+        }
+        private List<SmartWallet>[] SplitTask2(Func<SmartWallet,bool> condition)
+        {
+            int tab = Config.LDTab;
+            List<SmartWallet>[] splitTask = new List<SmartWallet>[tab];
+            List<SmartWallet> tmp = new List<SmartWallet>();
+            foreach(var wallet in Wallets)
+            {
+                if(condition(wallet))
+                {
+                    tmp.Add(wallet);
+                }
+            }
+            int range = tmp.Count / tab;
+            for (int i = 0; i < tab; i++)
+            {
+                int start = i * range;
+                int end = (i + 1) * range;
+                splitTask[i] = new List<SmartWallet>();
+                for (int j = start; j < end; j++)
+                {
+                    splitTask[i].Add(tmp[j]);
+                }
+            }
+            int last = tab * range - 1;
+            for (int i = last; i < tmp.Count; i++)
+            {
+                try
+                {
+                    splitTask[tab - 1].Add(tmp[i]);
+                }
+                catch (Exception ex)
+                {
+                    MainForm.MessageBox($"{tab - 1} {splitTask.Length} {last} {i} {tmp.Count}");
+                }
+            }
+            return splitTask;
         }
         private List<SmartWallet>[] SplitTask()
         {
@@ -136,7 +167,7 @@ namespace AutoTransactionToken.AppController
                 {
                     LDClient client = LDPlayerController.Open(i + 1);
                     clients[i] = client;
-                    await Task.Delay(1000);
+                    await Task.Delay(500);
                     LDPlayerController.SortWindow();
                 }
             });
@@ -156,7 +187,7 @@ namespace AutoTransactionToken.AppController
         {
             if (IsStartTransactionSmart) return;
             IsStartTransactionSmart = true;
-            List<SmartWallet>[] splitTask = SplitTask();
+            List<SmartWallet>[] splitTask = SplitTask2(x => x.SmartState != SmartTransactionState.SmartTransactionSuccess);
             int tab = Config.LDTab;
             for (int i = 0; i < tab; i++)
             {
@@ -169,7 +200,7 @@ namespace AutoTransactionToken.AppController
         {
             if (IsStartDelegateEnergy) return;
             IsStartDelegateEnergy = true;
-            List<SmartWallet>[] splitTask = SplitTask();
+            List<SmartWallet>[] splitTask = SplitTask2(x => x.EnergyState != EnergyTransactionState.EnergySuccess);
             int tab = Config.LDTab;
             for (int i = 0; i < tab; i++)
             {
@@ -182,7 +213,7 @@ namespace AutoTransactionToken.AppController
         {
             if (IsStartTransactionUltima) return;
             IsStartTransactionUltima = true;
-            List<SmartWallet>[] splitTask = SplitTask();
+            List<SmartWallet>[] splitTask = SplitTask2(x => x.UltimaState != UltimaTransactionState.UltimaSuccess);
             int tab = Config.LDTab;
             for (int i = 0; i < tab; i++)
             {
@@ -195,7 +226,7 @@ namespace AutoTransactionToken.AppController
         {
             if (IsStartTransactionUltima) return;
             IsStartTransactionUltima = true;
-            List<SmartWallet>[] splitTask = SplitTask();
+            List<SmartWallet>[] splitTask = SplitTask2(x => x.Ultima < Config.UltimaToken);
             int tab = Config.LDTab;
             for (int i = 0; i < tab; i++)
             {
@@ -260,7 +291,7 @@ namespace AutoTransactionToken.AppController
         {
             if (IsStartTransactionBull) return;
             IsStartTransactionBull = false;
-            List<SmartWallet>[] splitTask = SplitTask();
+            List<SmartWallet>[] splitTask = SplitTask2(x => x.BullState != BullTransactionState.BullSuccess);
             int tab = Config.LDTab;
             for (int i = 0; i < tab; i++)
             {

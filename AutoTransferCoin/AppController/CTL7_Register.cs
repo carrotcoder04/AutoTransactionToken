@@ -17,110 +17,52 @@ namespace AutoTransactionToken.AppController
         }
         private async Task Register(LDClient client)
         {
-            client.ClickPercent(16f, 8f);
+            await Service.ClickElement(client.ID, BTN_WALLET_SETTINGS);
             await Task.Delay(300);
-            client.ClickPercent(66f, 28f);
+            while (await Service.ContainElement(client.ID, ADD_WALLET))
+            {
+                await Service.ClickElement(client.ID, ADD_WALLET);
+                await Task.Delay(400);
+            }
             await Task.Delay(300);
-            client.ClickPercent(66f, 28f);
-            await Task.Delay(800);
-            client.Swipe(200, 180, 200, 10, 500);
-
-            while (client.DumpAndCheckKey("btn_basic_security"))
-            {
-                client.ClickPercent(50f, 55f);
-                await Task.Delay(300);
-                client.ClickPercent(50f, 90f);
-            }
-            await Task.Delay(500);
-            bool flag = false;
-            string[] keys = new string[12];
-            do
-            {
-                client.LongPress(200, 460, 600);
-
-                string content = client.DumpXML();
-                var listContentDesc = Helper.GetContentDesc(content);
-                for (int i = 0; i < listContentDesc.Count; i++)
-                {
-                    try
-                    {
-                        string s = listContentDesc[i];
-                        if (s.Length == 0) continue;
-                        if (s[0] < '0' || s[0] > '9') continue;
-                        var parts = s.Split("&#10;");
-                        int index = int.Parse(parts[0]);
-                        string k = parts[1];
-                        if (k[0] == '-')
-                        {
-                            continue;
-                        }
-                        keys[index - 1] = k.ToLower();
-                        flag = true;
-                    }
-                    catch (Exception ex)
-                    {
-                        MainForm.MessageBox(ex.Message);
-                    }
-                }
-            }
-            while (!flag);
-            while(client.DumpAndCheckKey("tbtn_agreement"))
-            {
-                client.ClickPercent(7.5f, 86f);
-                await Task.Delay(300);
-                client.ClickPercent(50f, 95f);
-            }
+            await Service.ClickElement(client.ID, ITEM_CREATE_WALLET);
             await Task.Delay(700);
-            for (int i = 0; i < keys.Length; i++)
-            {
-                try
-                {
-                    await Task.Delay(340);
-                    string key = keys[i];
-                    string xm = client.DumpXML();
-                    XmlSerializer serializer = new XmlSerializer(typeof(Hierarchy));
-                    using (StringReader reader = new StringReader(xm))
-                    {
-                        var hierarchy = (Hierarchy)serializer.Deserialize(reader);
-                        var node = Helper.FindNodesWithContentDesc(hierarchy.Node,x => x == key.ToUpper())[0];
-                        var bound = Helper.GetBound(node.Bounds);
-                        int x = (bound[0] + bound[2]) / 2; 
-                        int y = (bound[1] + bound[3]) / 2; 
-                        Logger.WriteLine($"{i}: {key} : {x} {y}");
-                        client.Click(x, y);
-                    }
-                    //var a = Helper.GetButton(key.ToUpper(), x);
-                    //Logger.WriteLine($"{i}: {key} : {a.Item1} {a.Item2}");
-                }
-                catch (Exception ex)
-                {
-                    MainForm.MessageBox(ex.ToString());
-                }
-            }
+            client.Swipe(200, 300, 200, 150, 500);
+            await Task.Delay(500);
+            await Service.ClickElement(client.ID, BTN_BASIC_SECURITY);
             await Task.Delay(300);
-            client.ClickPercent(50f, 54f);
-            await Task.Delay(300);
-            client.ClickPercent(50f, 60f);
-            await Task.Delay(800);
-            client.ClickPercent(7.5f, 6.4f);
-            await Task.Delay(200);
-            client.ClickPercent(7.5f, 6.4f);
-            await Task.Delay(200);
-            client.ClickPercent(7.5f, 6.4f);
+            await Service.ClickElement(client.ID, BTN_CONTINUE);
             await Task.Delay(600);
-            client.ClickPercent(11f, 56.5f);
-            await Task.Delay(1000);
-            string address = string.Empty;
-            string xml = client.DumpXML();
-            XmlSerializer serial = new XmlSerializer(typeof(Hierarchy));
-            using (StringReader reader = new StringReader(xml))
+            string result = await Service.GetKeyRegister(client.ID);
+            string[] keys = result.Split(' ');
+            await Service.ClickElement(client.ID, CHECK_BOX_AGREE);
+            await Task.Delay(300);
+            await Service.ClickElement(client.ID, BTN_NEXT2);
+            await Task.Delay(600);
+            foreach (string key in keys)
             {
-                var hierarchy = (Hierarchy)serial.Deserialize(reader);
-                var node = Helper.FindNodesWithContentDesc(hierarchy.Node, x => x.StartsWith("s"))[0];
-                address = node.ContentDesc.Split("\n")[0];
+                await Service.ClickElement2(client.ID, key.ToUpper());
+                await Task.Delay(200);
             }
-            RegisterData.Register(string.Join(" ", keys) + " " + address);
-            client.ClickPercent(15f, 95f);
+            await Task.Delay(300);
+            await Service.ClickElement(client.ID, BTN_NEXT2);
+            await Task.Delay(800);
+            await Service.ClickElement(client.ID, BTN_DIALOG_OK);
+            await Task.Delay(500);
+            await GoSmartHome(client);
+            await Task.Delay(200);
+            while (await Service.ClickElement(client.ID, BTN_SMART))
+            {
+                await Task.Delay(200);
+            }
+            await Task.Delay(1000);
+            string address = await Service.GetAddress(client.ID);
+            bool flag = char.IsLetter(result[0]) && char.IsLetter(address[0]) && address != "FAIL";
+            if(flag)
+            {
+                RegisterData.Register(result + " " + address);
+            }
+            await GoSmartHome(client);
         }
     }
 }

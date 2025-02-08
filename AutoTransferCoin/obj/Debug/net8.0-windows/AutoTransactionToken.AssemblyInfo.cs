@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoTransactionToken")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1d0f6a40f87f6d547bb018e7cbb97d497dab690")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoTransactionToken")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoTransactionToken")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

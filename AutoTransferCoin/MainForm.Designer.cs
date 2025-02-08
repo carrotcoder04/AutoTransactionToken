@@ -37,8 +37,8 @@ namespace AutoTransactionToken
             startButton = new Button();
             StartApp = new Button();
             TransactionSmartButton = new Button();
-            DumpXML = new Button();
             DataView = new DataGridView();
+            SmartWallet = new DataGridViewTextBoxColumn();
             Update = new System.Windows.Forms.Timer(components);
             SortWindow = new Button();
             EnergyDelegateButton = new Button();
@@ -49,7 +49,6 @@ namespace AutoTransactionToken
             StopApp = new Button();
             RegisterButton = new Button();
             TransactionBullToken = new Button();
-            SmartWallet = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)DataView).BeginInit();
             SuspendLayout();
             // 
@@ -83,16 +82,6 @@ namespace AutoTransactionToken
             TransactionSmartButton.UseVisualStyleBackColor = true;
             TransactionSmartButton.Click += TransactionSmartButton_Click;
             // 
-            // DumpXML
-            // 
-            DumpXML.Location = new Point(33, 45);
-            DumpXML.Name = "DumpXML";
-            DumpXML.Size = new Size(107, 23);
-            DumpXML.TabIndex = 6;
-            DumpXML.Text = "Dump XML";
-            DumpXML.UseVisualStyleBackColor = true;
-            DumpXML.Click += button1_Click;
-            // 
             // DataView
             // 
             DataView.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
@@ -122,9 +111,17 @@ namespace AutoTransactionToken
             DataView.Name = "DataView";
             DataView.ReadOnly = true;
             DataView.RightToLeft = RightToLeft.No;
-            DataView.Size = new Size(1366, 428);
+            DataView.Size = new Size(1162, 428);
             DataView.TabIndex = 7;
             DataView.RowPostPaint += DataView_RowPostPaint;
+            // 
+            // SmartWallet
+            // 
+            SmartWallet.HeaderText = "Smart Wallet";
+            SmartWallet.MinimumWidth = 50;
+            SmartWallet.Name = "SmartWallet";
+            SmartWallet.ReadOnly = true;
+            SmartWallet.Width = 1500;
             // 
             // Update
             // 
@@ -134,7 +131,7 @@ namespace AutoTransactionToken
             // 
             // SortWindow
             // 
-            SortWindow.Location = new Point(146, 45);
+            SortWindow.Location = new Point(34, 45);
             SortWindow.Name = "SortWindow";
             SortWindow.Size = new Size(107, 23);
             SortWindow.TabIndex = 8;
@@ -184,7 +181,7 @@ namespace AutoTransactionToken
             // 
             // ClearAppDataAndReloginButton
             // 
-            ClearAppDataAndReloginButton.Location = new Point(370, 45);
+            ClearAppDataAndReloginButton.Location = new Point(258, 45);
             ClearAppDataAndReloginButton.Name = "ClearAppDataAndReloginButton";
             ClearAppDataAndReloginButton.Size = new Size(168, 23);
             ClearAppDataAndReloginButton.TabIndex = 13;
@@ -194,7 +191,7 @@ namespace AutoTransactionToken
             // 
             // StopApp
             // 
-            StopApp.Location = new Point(259, 45);
+            StopApp.Location = new Point(147, 45);
             StopApp.Name = "StopApp";
             StopApp.Size = new Size(105, 23);
             StopApp.TabIndex = 14;
@@ -204,7 +201,7 @@ namespace AutoTransactionToken
             // 
             // RegisterButton
             // 
-            RegisterButton.Location = new Point(544, 45);
+            RegisterButton.Location = new Point(432, 45);
             RegisterButton.Name = "RegisterButton";
             RegisterButton.Size = new Size(105, 23);
             RegisterButton.TabIndex = 15;
@@ -222,19 +219,11 @@ namespace AutoTransactionToken
             TransactionBullToken.UseVisualStyleBackColor = true;
             TransactionBullToken.Click += TransactionBullButton_Click;
             // 
-            // SmartWallet
-            // 
-            SmartWallet.HeaderText = "Smart Wallet";
-            SmartWallet.MinimumWidth = 50;
-            SmartWallet.Name = "SmartWallet";
-            SmartWallet.ReadOnly = true;
-            SmartWallet.Width = 1500;
-            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1369, 542);
+            ClientSize = new Size(1165, 542);
             Controls.Add(TransactionBullToken);
             Controls.Add(RegisterButton);
             Controls.Add(StopApp);
@@ -245,7 +234,6 @@ namespace AutoTransactionToken
             Controls.Add(EnergyDelegateButton);
             Controls.Add(SortWindow);
             Controls.Add(DataView);
-            Controls.Add(DumpXML);
             Controls.Add(TransactionSmartButton);
             Controls.Add(StartApp);
             Controls.Add(startButton);
@@ -262,7 +250,6 @@ namespace AutoTransactionToken
         private Button startButton;
         private Button StartApp;
         private Button TransactionSmartButton;
-        private Button DumpXML;
         private DataGridView DataView;
         private System.Windows.Forms.Timer Update;
         private Button SortWindow;

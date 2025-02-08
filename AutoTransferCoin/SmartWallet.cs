@@ -23,6 +23,10 @@ namespace AutoTransactionToken
                 {
                     SmartState = SmartTransactionState.SmartTransactionSuccess;
                 }
+                else if (SmartState != SmartTransactionState.SmartTransactionRunning)
+                {
+                    SmartState = SmartTransactionState.None;
+                }
             }
         }
         private double energy = 0;
@@ -35,6 +39,10 @@ namespace AutoTransactionToken
                 if(value >= AppConfig.Instance.Energy - 1000)
                 {
                     EnergyState = EnergyTransactionState.EnergySuccess;
+                }
+                else if(EnergyState != EnergyTransactionState.EnergyRunning)
+                {
+                    EnergyState = EnergyTransactionState.None;
                 }
             }
         }
@@ -50,6 +58,10 @@ namespace AutoTransactionToken
                 {
                     BullState = BullTransactionState.BullSuccess;
                 }
+                else if (BullState != BullTransactionState.BullRunning)
+                {
+                    BullState = BullTransactionState.None;
+                }
             }
         }
         private string BALANCE_SMART_ULTIMA_URL => $"https://api.smartexplorer.com/api/account/tokens?address={Address}&page=0&size=5";
@@ -64,6 +76,10 @@ namespace AutoTransactionToken
                 if(value < 0.0001f)
                 {
                     UltimaState = UltimaTransactionState.UltimaSuccess;
+                }
+                else if(UltimaState != UltimaTransactionState.UltimaRunning)
+                {
+                    UltimaState = UltimaTransactionState.None;
                 }
             }
         }
@@ -96,6 +112,7 @@ namespace AutoTransactionToken
             SmartState = SmartTransactionState.None;
             EnergyState = EnergyTransactionState.None;
             UltimaState = UltimaTransactionState.None;
+            BullState = BullTransactionState.None;
         }
         public async Task Update()
         {

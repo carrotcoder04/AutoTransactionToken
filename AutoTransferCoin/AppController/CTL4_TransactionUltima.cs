@@ -1,11 +1,6 @@
 ﻿using AutoTransactionToken.Log;
 using AutoTransactionToken.Simulator;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AutoTransactionToken.AppController
 {
@@ -16,7 +11,7 @@ namespace AutoTransactionToken.AppController
             foreach (SmartWallet smartWallet in smartWallets)
             {
                 await TransactionUltima(client, smartWallet,fromMain);
-                await Task.Delay(500);
+                await Task.Delay(100);
             }
             IsStartTransactionUltima = false;
         }
@@ -40,99 +35,91 @@ namespace AutoTransactionToken.AppController
                     return;
                 }
             }
+
             wallet.UltimaState = UltimaTransactionState.UltimaRunning;
             if(!fromMain)
             {
                 await Login(client, wallet);
             }
-            client.ClickPercent(10f, 75f);
+            await Service.ClickElement(client.ID, BTN_ULTIMA);
             await Task.Delay(700);
-            //Send
             bool flag = false;
             do
             {
-                client.ClickPercent(75.5f, 56.5f);
-                await Task.Delay(120);
-                if (client.DumpAndCheckKey(BTN_DIALOG_OK))
+                await Service.ClickElement(client.ID, BTN_SEND);
+                await Task.Delay(440);
+                if (await Service.ClickElement(client.ID, BTN_DIALOG_OK))
                 {
-                    client.ClickPercent(50f,60f);
-                    await Task.Delay(250);
+                    await Task.Delay(450);
                 }
-                else
+                else if (!await Service.ContainElement(client.ID, BTN_SEND))
                 {
                     flag = true;
                 }
             }
             while (!flag);
-            client.ClickPercent(50f, 50f);
-            await Task.Delay(150);
+            await Task.Delay(1200);
             if (!fromMain)
             {
-                client.InputText(Config.TargetAddress);
+                await Service.SetTextElement2(client.ID,1,Config.TargetAddress);
             }
             else
             {
-                client.InputText(wallet.Address);
+                await Service.SetTextElement2(client.ID,1,wallet.Address);
             }
-            await Task.Delay(200);
-            if(Config.IsMaxUltima)
+            await Task.Delay(800);
+            if (Config.IsMaxUltima)
             {
-                client.ClickPercent(92f, 32f);
+                await Service.ClickElement(client.ID, BTN_MAX);
                 await Task.Delay(200);
-                client.ClickPercent(50f, 85f);
-                await Task.Delay(1200);
-                flag = false;
-                do
+                await Service.ClickElement(client.ID, BTN_NEXT);
+                await Task.Delay(1000);
+                while (await Service.ContainElement(client.ID, ATTENTION))
                 {
-                    client.ClickPercent(50f, 65f);
-                    if (!client.DumpAndCheckKey(BTN_CONFIRM))
-                    {
-                        flag = true;
-                    }
+                    await Service.ClickElement(client.ID, BTN_CONFIRM);
+                    await Task.Delay(200);
                 }
-                while (!flag);
             }
             else
             {
-                client.ClickPercent(50f, 30f);
-                await Task.Delay(200);
-                client.InputText(Config.UltimaToken.ToString("F6"));
-
+                await Service.SetTextElement2(client.ID,0,Config.UltimaToken.ToString("F6"));
+                await Task.Delay(500);
+                await Service.ClickElement(client.ID, BTN_NEXT);
             }
             await Task.Delay(500);
             flag = false;
             do
             {
-                client.ClickPercent(50f, 85f);
-                await Task.Delay(120);
-                if (client.DumpAndCheckKey(BTN_DIALOG_OK))
+                await Service.ClickElement(client.ID, BTN_NEXT);
+                await Task.Delay(440);
+                if (await Service.ClickElement(client.ID, BTN_DIALOG_OK))
                 {
-                    client.ClickPercent(50f, 60f);
-                    await Task.Delay(250);
+                    await Task.Delay(450);
                 }
-                else
+                else if (!await Service.ContainElement(client.ID, BTN_NEXT))
                 {
                     flag = true;
                 }
             }
             while (!flag);
-            client.ClickPercent(50f, 85f);
+            await Task.Delay(200);
+            await Service.ClickElement(client.ID, BTN_NEXT);
             await Task.Delay(800);
             await EnterPassWord(client);
             flag = false;
             do
             {
-                if (client.DumpAndCheckKey(SUCCESS))
+                if (await Service.ContainElement(client.ID, SUCCESS))
                 {
-                    flag = true;
+                    flag = await Service.ClickElement(client.ID, BTN_DIALOG_OK);
                 }
-                await Task.Delay(500);
+                await Task.Delay(120);
             }
             while (!flag);
+
             wallet.UltimaState = UltimaTransactionState.UltimaSuccess;
-            client.ClickPercent(50f, 60f);
-            Report.WriteLine(JsonConvert.SerializeObject(wallet));
             await GoSmartHome(client);
+            await Service.ClickElement(client.ID, BTN_ALL);
         }
 
     }

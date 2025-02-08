@@ -6,27 +6,32 @@ namespace AutoTransactionToken.AppController
     {
         public async Task NewLogin(LDClient client)
         {
-            while(!client.DumpAndCheckKey("btn_select_language"))
+            await Task.Delay(6000);
+            while(!await Service.ContainElement(client.ID,BTN_SELECT_LANGUAGE))
             {
 
             }
-            await Task.Delay(400);
-            client.ClickPercent(50f, 94f);
-            await Task.Delay(600);
-            client.LongPress(31, 428, 1000);
             await Task.Delay(200);
-            client.ClickPercent(50f, 90f);
-            await Login(client,new SmartWallet() { SecretKey = Config.SecretKey});
-            client.ClickPercent(83f, 96f);
+            await Service.ClickElement2(client.ID,BTN_NEXT);
+            await Task.Delay(600);
+            await Service.ClickElement(client.ID,CHECK_BOX_AGREE);
+            await Task.Delay(200);
+            await Service.ClickElement(client.ID,BTN_RESTORE);
+            await Task.Delay(800);
+            await Login(client,new SmartWallet() { SecretKey = Config.SecretKey},true);
+            await Service.ClickElement(client.ID, BTN_SETTINGS);
             await Task.Delay(400);
-            client.ClickPercent(50f, 30f);
+            await Service.ClickElement(client.ID, SECURITY);
             await Task.Delay(400);
-            client.ClickPercent(85f, 20f);
+            await Service.ClickElement(client.ID, PIN);
             await EnterPassWord(client);
+            await Task.Delay(400);
             await EnterPassWord(client);
             await Task.Delay(300);
-            client.ClickPercent(85f, 40f);
+            await Service.ClickElement(client.ID, Login_Confirmation);
+            await Task.Delay(500);
             await EnterPassWord(client);
+            await Task.Delay(500);
             await GoSmartHome(client);
             IsRestartApp = false;
         }

@@ -3,16 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl4_transactionultima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl4_transactionultima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl5_energyrecovery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl5_energyrecovery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl3_energydelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl3_energydelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl7_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl7_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl8_transactionbull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl8_transactionbull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl2_transactionsmart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl2_transactionsmart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\simulator\\ldclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\simulator\\ldclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\autotransfercoin\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\config\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\config\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\smartwallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\smartwallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\simulator\\ldplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\simulator\\ldplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\mydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\mydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,56 +75,24 @@
       "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\smartwalletstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\smartwallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\smartwallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\log\\registerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\log\\registerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\log\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\log\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\simulator\\ldclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\simulator\\ldclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\config\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\config\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl5_energyrecovery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl5_energyrecovery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl6_newlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl6_newlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl4_transactionultima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl4_transactionultima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl3_energydelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl3_energydelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl2_transactionsmart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl2_transactionsmart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\autotransfercoin\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl8_transactionbull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl8_transactionbull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\ctl7_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\ctl7_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\log\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,18 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\appcontroller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\appcontroller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\log\\registerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\log\\registerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|c:\\users\\asus\\desktop\\idgenerator\\autotransfercoin\\autotransfercoin\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00758B3A-A933-43C2-8C2C-F6CFDA827EBC}|AutoTransferCoin\\AutoTransactionToken.csproj|solutionrelative:autotransfercoin\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,78 +110,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CTL1.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL1.cs",
-              "RelativeDocumentMoniker": "AutoTransferCoin\\AppController\\CTL1.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL1.cs",
-              "RelativeToolTip": "AutoTransferCoin\\AppController\\CTL1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:40:10.779Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "CTL2_TransactionSmart.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL2_TransactionSmart.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\AppController\\CTL2_TransactionSmart.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL2_TransactionSmart.cs",
               "RelativeToolTip": "AutoTransferCoin\\AppController\\CTL2_TransactionSmart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T03:42:23.26Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "CTL3_EnergyDelegate.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL3_EnergyDelegate.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\AppController\\CTL3_EnergyDelegate.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL3_EnergyDelegate.cs",
               "RelativeToolTip": "AutoTransferCoin\\AppController\\CTL3_EnergyDelegate.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB4AAAAMAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T03:43:44.201Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "CTL4_TransactionUltima.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL4_TransactionUltima.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\AppController\\CTL4_TransactionUltima.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL4_TransactionUltima.cs",
               "RelativeToolTip": "AutoTransferCoin\\AppController\\CTL4_TransactionUltima.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAAwCkAAAANAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAIA0wCsAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T03:44:41.566Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "CTL5_EnergyRecovery.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL5_EnergyRecovery.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\AppController\\CTL5_EnergyRecovery.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL5_EnergyRecovery.cs",
               "RelativeToolTip": "AutoTransferCoin\\AppController\\CTL5_EnergyRecovery.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwCkAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T10:27:45.323Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "CTL6_NewLogin.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL6_NewLogin.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\AppController\\CTL6_NewLogin.cs",
@@ -186,39 +179,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 5,
               "Title": "CTL7_Register.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL7_Register.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\AppController\\CTL7_Register.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL7_Register.cs",
               "RelativeToolTip": "AutoTransferCoin\\AppController\\CTL7_Register.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAowFAAAAARAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T09:15:27.344Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 0,
               "Title": "Controller.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\Controller.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\AppController\\Controller.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\Controller.cs",
               "RelativeToolTip": "AutoTransferCoin\\AppController\\Controller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAywBgAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T03:48:19.011Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\MainForm.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\MainForm.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\MainForm.cs",
               "RelativeToolTip": "AutoTransferCoin\\MainForm.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAA7wE4AAABeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T15:13:29.143Z",
               "IsPinned": true,
@@ -226,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\MainForm.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\MainForm.cs",
@@ -238,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AppConfig.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Config\\AppConfig.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\Config\\AppConfig.cs",
@@ -247,26 +241,24 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T15:13:38.439Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "SmartWallet.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\SmartWallet.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\SmartWallet.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\SmartWallet.cs",
               "RelativeToolTip": "AutoTransferCoin\\SmartWallet.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAkwA0AAACHAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAuwF8AAADYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T07:03:28.23Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Helper.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Helper.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\Helper.cs",
@@ -315,7 +307,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "CTL1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL1.cs",
+              "RelativeDocumentMoniker": "AutoTransferCoin\\AppController\\CTL1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL1.cs",
+              "RelativeToolTip": "AutoTransferCoin\\AppController\\CTL1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T03:40:10.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LDPlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Simulator\\LDPlayerController.cs",
+              "RelativeDocumentMoniker": "AutoTransferCoin\\Simulator\\LDPlayerController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Simulator\\LDPlayerController.cs",
+              "RelativeToolTip": "AutoTransferCoin\\Simulator\\LDPlayerController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T04:19:57.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Service.cs",
+              "RelativeDocumentMoniker": "AutoTransferCoin\\Service.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Service.cs",
+              "RelativeToolTip": "AutoTransferCoin\\Service.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAA0wBsAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T10:56:06.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MyData.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\MyData.cs",
+              "RelativeDocumentMoniker": "AutoTransferCoin\\MyData.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\MyData.cs",
+              "RelativeToolTip": "AutoTransferCoin\\MyData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T12:56:40.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Program.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\Program.cs",
@@ -323,12 +363,11 @@
               "RelativeToolTip": "AutoTransferCoin\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T05:59:19.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T05:59:19.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 18,
               "Title": "RegisterData.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Log\\RegisterData.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\Log\\RegisterData.cs",
@@ -340,19 +379,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "CTL8_TransactionBull.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL8_TransactionBull.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\AppController\\CTL8_TransactionBull.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\AppController\\CTL8_TransactionBull.cs",
               "RelativeToolTip": "AutoTransferCoin\\AppController\\CTL8_TransactionBull.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA6wCIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T16:31:23.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Report.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Log\\Report.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\Log\\Report.cs",
@@ -364,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
               "Title": "Models.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Models.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\Models.cs",
@@ -372,38 +411,23 @@
               "RelativeToolTip": "AutoTransferCoin\\Models.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAAAEEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T08:59:06.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T08:59:06.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LDClient.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Simulator\\LDClient.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\Simulator\\LDClient.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Simulator\\LDClient.cs",
               "RelativeToolTip": "AutoTransferCoin\\Simulator\\LDClient.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAIAxwGUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAB0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T10:56:20.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T10:56:20.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Service.cs",
-              "RelativeDocumentMoniker": "AutoTransferCoin\\Service.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Service.cs",
-              "RelativeToolTip": "AutoTransferCoin\\Service.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T10:56:06.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 19,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\MainForm.Designer.cs",
@@ -415,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "Logger.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\Log\\Logger.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\Log\\Logger.cs",
@@ -423,12 +447,11 @@
               "RelativeToolTip": "AutoTransferCoin\\Log\\Logger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T06:19:25.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T06:19:25.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "SmartWalletState.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\IDGenerator\\AutoTransferCoin\\AutoTransferCoin\\SmartWalletState.cs",
               "RelativeDocumentMoniker": "AutoTransferCoin\\SmartWalletState.cs",
@@ -436,8 +459,7 @@
               "RelativeToolTip": "AutoTransferCoin\\SmartWalletState.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T04:46:26.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T04:46:26.331Z"
             }
           ]
         }

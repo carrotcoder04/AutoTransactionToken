@@ -3,11 +3,6 @@ C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\bin\Debug\ne
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\bin\Debug\net8.0-windows\AutoTransactionToken.runtimeconfig.json
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\bin\Debug\net8.0-windows\AutoTransactionToken.dll
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\bin\Debug\net8.0-windows\AutoTransactionToken.pdb
-C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
-C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\bin\Debug\net8.0-windows\Auto_LDPlayer.dll
-C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\bin\Debug\net8.0-windows\KAutoHelper.dll
-C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\bin\Debug\net8.0-windows\Emgu.CV.World.dll
-C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\bin\Debug\net8.0-windows\Auto_LDPlayer.pdb
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.csproj.AssemblyReference.cache
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.MainForm.resources
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.csproj.GenerateResource.cache
@@ -15,10 +10,12 @@ C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\ne
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.AssemblyInfoInputs.cache
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.AssemblyInfo.cs
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.csproj.CoreCompileInputs.cache
-C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTran.188CE24D.Up2Date
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.dll
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\refint\AutoTransactionToken.dll
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.pdb
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\ref\AutoTransactionToken.dll
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.AppController.Controller.resources
+C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.sourcelink.json
+C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.csproj.Fody.CopyLocal.cache
+C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Debug\net8.0-windows\AutoTransactionToken.csproj.Fody.RuntimeCopyLocal.cache

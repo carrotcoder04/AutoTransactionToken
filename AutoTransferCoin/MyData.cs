@@ -26,16 +26,16 @@ namespace AutoTransactionToken
                 if(string.IsNullOrEmpty(part)) continue;
                 try
                 {
-                    string[] words = Regex.Split(part, "\\s+");
+                    string[] words = Regex.Split(part.Trim(), "\\s+");
                     StringBuilder keyBuilder = new StringBuilder();
-                    for (int i = 0; i < words.Length - 3; i++)
+                    for (int i = 0; i < words.Length - 2; i++)
                     {
                         keyBuilder.Append(words[i] + ' ');
                     }
-                    keyBuilder.Append(words[words.Length - 3]);
+                    keyBuilder.Append(words[words.Length - 2]);
                     int index = Wallets.Count;
                     string key = keyBuilder.ToString();
-                    string address = words[words.Length - 2];
+                    string address = words[words.Length - 1];
                     var wallet = FindWalletByAddress(address);
                     if (wallet != null)
                     {

@@ -6,6 +6,7 @@ namespace AutoTransactionToken.AppController
 {
     public partial class Controller
     {
+
         private async Task EnergyDelegateList(LDClient client, List<SmartWallet> smartWallets)
         {
             foreach (SmartWallet smartWallet in smartWallets)
@@ -29,50 +30,50 @@ namespace AutoTransactionToken.AppController
                 }
             }
             wallet.EnergyState = EnergyTransactionState.EnergyRunning;
-            client.ClickPercent(11f, 56.5f);
-            await Task.Delay(700);
+            await Service.ClickElement(client.ID,BTN_SMART);
+            await Task.Delay(1000);
+            while (!await Service.ClickElement(client.ID, BTN_STAKE))
+            {
+                await Task.Delay(100);
+            }
+            await Task.Delay(500);
+            while (await Service.ContainElement(client.ID, BTN_MANAGE))
+            {
+                await Service.ClickElement(client.ID, BTN_MANAGE);
+                await Task.Delay(100);
+            }
+            await Task.Delay(500);
+            while (await Service.ContainElement(client.ID, BTN_DELEGATE))
+            {
+                await Service.ClickElement(client.ID, BTN_DELEGATE);
+                await Task.Delay(300);
+            }
+            await Task.Delay(1200);
+            await Service.SetTextElement2(client.ID,1,wallet.Address);
+            await Task.Delay(600);
+            await Service.SetTextElement2(client.ID,0,Config.Energy.ToString());
+            await Task.Delay(400);
+            await Service.ClickElement(client.ID,BTN_CONTINUE);
+            await Task.Delay(600);
+            while(await Service.ClickElement(client.ID, BTN_CONFIRM))
+            {
+                await Task.Delay(200);
+                await Service.ClickElement(client.ID, BTN_OK);
+                await Service.ClickElement(client.ID, BTN_DIALOG_OK);
+            }
+            await Task.Delay(600);
+            await EnterPassWord(client);
             bool flag = false;
             do
             {
-                client.ClickPercent(25f, 36.5f);
-                await Task.Delay(100);
-                flag = client.DumpAndCheckKey(BTN_MANAGE);
-            }
-            while (!flag);
-            client.ClickPercent(50f, 42f);
-            await Task.Delay(300);
-            client.ClickPercent(50f, 87f);
-            await Task.Delay(300);
-            client.ClickPercent(50f, 63f);
-            await Task.Delay(300);
-            client.InputText(wallet.Address);
-            await Task.Delay(300);
-            client.ClickPercent(50f, 50f);
-            await Task.Delay(300);
-            client.InputText(((int)Config.Energy).ToString());
-            await Task.Delay(300);
-            client.ClickPercent(50f, 90f);
-            await Task.Delay(300);
-            while(client.DumpAndCheckKey("btn_confirm"))
-            {
-                client.ClickPercent(50f, 85f);
-                await Task.Delay(100);
-            }
-            await Task.Delay(800);
-            await EnterPassWord(client);
-            flag = false;
-            do
-            {
-                if (client.DumpAndCheckKey(SUCCESS))
+                if (await Service.ContainElement(client.ID, SUCCESS))
                 {
-                    flag = true;
+                    flag = await Service.ClickElement(client.ID, BTN_OK);
                 }
-                await Task.Delay(500);
+                await Task.Delay(120);
             }
             while (!flag);
             wallet.EnergyState = EnergyTransactionState.EnergySuccess;
-            client.ClickPercent(50f, 85f);
-            Report.WriteLine(JsonConvert.SerializeObject(wallet));
             await GoSmartHome(client);
         }
 

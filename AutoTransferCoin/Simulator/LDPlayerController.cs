@@ -1,5 +1,6 @@
 ﻿using Auto_LDPlayer;
 using Auto_LDPlayer.Enums;
+using System.Diagnostics;
 
 namespace AutoTransactionToken.Simulator
 {
@@ -13,7 +14,31 @@ namespace AutoTransactionToken.Simulator
         {
             LDPlayer.SetADBPFolder(path);
         }
-
+        public static void DisableAnimation()
+        {
+            ExecuteAdbCommand("shell settings put global window_animation_scale 0");
+            ExecuteAdbCommand("shell settings put global transition_animation_scale 0");
+            ExecuteAdbCommand("shell settings put global animator_duration_scale 0");
+        }
+        static void ExecuteAdbCommand(string command)
+        {
+            Process process = new Process
+            {
+                StartInfo = new ProcessStartInfo
+                {
+                    FileName = "adb",
+                    Arguments = command,
+                    RedirectStandardOutput = true,
+                    RedirectStandardError = true,
+                    UseShellExecute = false,
+                    CreateNoWindow = true
+                }
+            };
+            process.Start();
+            string output = process.StandardOutput.ReadToEnd();
+            string error = process.StandardError.ReadToEnd();
+            process.WaitForExit();
+        }
         public static void ADBRestartServer()
         {
             LDPlayer.RestartServer();

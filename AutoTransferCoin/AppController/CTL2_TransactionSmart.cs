@@ -10,7 +10,7 @@ namespace AutoTransactionToken.AppController
             foreach (SmartWallet smartWallet in smartWallets)
             {
                 await TransactionSmart(client, smartWallet);
-                await Task.Delay(500);
+                await Task.Delay(100);
             }
             IsStartTransactionSmart = false;
         }
@@ -29,69 +29,59 @@ namespace AutoTransactionToken.AppController
                 }
             }
             wallet.SmartState = SmartTransactionState.SmartTransactionRunning;
-            client.ClickPercent(11f, 56.5f);
+            await Service.ClickElement(client.ID,BTN_SMART);
             await Task.Delay(700);
-            //Send
             bool flag = false;
             do
             {
-                client.ClickPercent(75f,50f);
-                await Task.Delay(120);
-                client.ClickPercent(75f, 46f);
-                await Task.Delay(120);
-                if (client.DumpAndCheckKey(BTN_DIALOG_OK))
+                await Service.ClickElement(client.ID,BTN_SEND);
+                await Task.Delay(440);
+                if (await Service.ClickElement(client.ID,BTN_DIALOG_OK))
                 {
-                    client.ClickPercent(50f, 60f);
-                    await Task.Delay(250);
+                    await Task.Delay(450);
                 }
-                else
+                else if(!await Service.ContainElement(client.ID, BTN_SEND))
                 {
                     flag = true;
                 }
             }
             while (!flag);
-            client.ClickPercent(50f, 50f);
-            await Task.Delay(150);
-            client.InputText(wallet.Address);
-            await Task.Delay(200);
-            client.ClickPercent(47f, 30f);
-            await Task.Delay(200);
-            client.InputText(((int)Config.SmartToken).ToString());
-            await Task.Delay(200);
-
-            ///Next
+            await Task.Delay(1200);
+            await Service.SetTextElement2(client.ID,1,wallet.Address);
+            await Task.Delay(600);
+            await Service.SetTextElement2(client.ID,0,((int)Config.SmartToken).ToString());
+            await Task.Delay(400);
             flag = false;
             do
             {
-                client.ClickPercent(50f, 85f);
-                await Task.Delay(120);
-                if (client.DumpAndCheckKey(BTN_DIALOG_OK))
+                await Service.ClickElement(client.ID, BTN_NEXT);
+                await Task.Delay(440);
+                if (await Service.ClickElement(client.ID, BTN_DIALOG_OK))
                 {
-                    client.ClickPercent(50f, 60f);
-                    await Task.Delay(250);
+                    await Task.Delay(450);
                 }
-                else
+                else if (!await Service.ContainElement(client.ID, BTN_NEXT))
                 {
                     flag = true;
                 }
             }
             while (!flag);
-            client.ClickPercent(50f, 85f);
+            await Task.Delay(200);
+            await Service.ClickElement(client.ID, BTN_NEXT);
             await Task.Delay(800);
             await EnterPassWord(client);
+            await Task.Delay(800);
             flag = false;
             do
             {
-                if (client.DumpAndCheckKey(SUCCESS))
+                if (await Service.ContainElement(client.ID, SUCCESS))
                 {
-                    flag = true;
+                    flag = await Service.ClickElement(client.ID, BTN_DIALOG_OK);
                 }
-                await Task.Delay(500);
+                await Task.Delay(120);
             }
             while (!flag);
             wallet.SmartState = SmartTransactionState.SmartTransactionSuccess;
-            client.ClickPercent(50f, 60f);
-            Report.WriteLine(JsonConvert.SerializeObject(wallet));
             await GoSmartHome(client);
         }
     }

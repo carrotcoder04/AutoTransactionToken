@@ -18,3 +18,4 @@ C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Release\
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Release\net8.0-windows\ref\AutoTransactionToken.dll
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Release\net8.0-windows\AutoTransactionToken.csproj.Fody.CopyLocal.cache
 C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Release\net8.0-windows\AutoTransactionToken.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\obj\Release\net8.0-windows\AutoTransactionToken.sourcelink.json

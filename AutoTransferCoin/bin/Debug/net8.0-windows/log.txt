@@ -1,0 +1,30 @@
+09/01/2025 7:56:06 CH - System.InvalidOperationException: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+   at System.Net.Http.HttpClient.PrepareRequestMessage(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.GetAsync(String requestUri)
+   at AutoTransactionToken.Service.Get(String url) in C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\Service.cs:line 17
+   at AutoTransactionToken.Service.ClickElement(Int32 id, String element) in C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\Service.cs:line 23
+   at AutoTransactionToken.AppController.Controller.Login(LDClient client, SmartWallet wallet) in C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\AppController\CTL1.cs:line 34
+
+09/01/2025 7:57:18 CH - http%3a%2f%2flocalhost%3a9123%2fce%2f1%2fbn_settings
+
+09/01/2025 7:57:18 CH - System.InvalidOperationException: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+   at System.Net.Http.HttpClient.PrepareRequestMessage(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.GetAsync(String requestUri)
+   at AutoTransactionToken.Service.Get(String url) in C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\Service.cs:line 18
+   at AutoTransactionToken.Service.ClickElement(Int32 id, String element) in C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\Service.cs:line 25
+   at AutoTransactionToken.AppController.Controller.Login(LDClient client, SmartWallet wallet) in C:\Users\ASUS\Desktop\IDGenerator\AutoTransferCoin\AutoTransferCoin\AppController\CTL1.cs:line 34
+
+09/01/2025 7:59:34 CH - http://localhost:9123/ce/1/bn_settings
+
+09/01/2025 7:59:37 CH - http://localhost:9123/ce/1/My+Wallets
+
+09/01/2025 7:59:39 CH - http://localhost:9123/ce/1/Restore+Wallet
+
+09/01/2025 8:00:21 CH - http://localhost:9123/ce/1/bn_settings
+
+09/01/2025 8:00:24 CH - http://localhost:9123/ce/1/My+Wallets
+
+09/01/2025 8:00:26 CH - http://localhost:9123/ce/1/Restore+Wallet
+
+09/01/2025 8:44:23 CH - Elapsed time: 0ms
+
